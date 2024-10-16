@@ -143,5 +143,23 @@ footer{
    .pikachu-image{
       height: 50vh;
    }
-   
 }
+@media (max-width:640px){
+   header div{
+      display: none;
+   }
+   .title span {
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   .description h2 {
+      font-size: 32px;
+   }
+   .description p {
+      display: none;
+   }
+   .action {
+      width: 100%;
+   }
+}
+
